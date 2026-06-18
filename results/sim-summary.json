@@ -1,0 +1,256 @@
+[
+  {
+    "key": "baseline",
+    "runs": [
+      {
+        "fcp": 663.91605,
+        "lcp": 1466.8321,
+        "speedIndex": 663.91605,
+        "tbt": 72,
+        "tti": 1738.8321,
+        "bootup": 242.3679999999997,
+        "maxFid": 122,
+        "perfScore": 100,
+        "jsBytes": 89115,
+        "totalBytes": 90928,
+        "biggestScript": {
+          "url": "chunks/fd9d1056-aa94ea5c2eabf904.js",
+          "bytes": 54179
+        }
+      },
+      {
+        "fcp": 615.3158,
+        "lcp": 1208.6316,
+        "speedIndex": 615.3158,
+        "tbt": 0,
+        "tti": 1208.6316000000002,
+        "bootup": 0,
+        "maxFid": 16,
+        "perfScore": 100,
+        "jsBytes": 89115,
+        "totalBytes": 90928,
+        "biggestScript": {
+          "url": "chunks/fd9d1056-aa94ea5c2eabf904.js",
+          "bytes": 54179
+        }
+      },
+      {
+        "fcp": 616.00045,
+        "lcp": 1506.0009,
+        "speedIndex": 616.00045,
+        "tbt": 0,
+        "tti": 1506.0009,
+        "bootup": 0,
+        "maxFid": 16,
+        "perfScore": 100,
+        "jsBytes": 89115,
+        "totalBytes": 90928,
+        "biggestScript": {
+          "url": "chunks/fd9d1056-aa94ea5c2eabf904.js",
+          "bytes": 54179
+        }
+      },
+      {
+        "fcp": 613.57445,
+        "lcp": 1505.1489,
+        "speedIndex": 613.57445,
+        "tbt": 0,
+        "tti": 1505.1489000000001,
+        "bootup": 0,
+        "maxFid": 16,
+        "perfScore": 100,
+        "jsBytes": 89115,
+        "totalBytes": 90928,
+        "biggestScript": {
+          "url": "chunks/fd9d1056-aa94ea5c2eabf904.js",
+          "bytes": 54179
+        }
+      },
+      {
+        "fcp": 615.70435,
+        "lcp": 1209.4087,
+        "speedIndex": 615.70435,
+        "tbt": 0,
+        "tti": 1209.4087,
+        "bootup": 0,
+        "maxFid": 16,
+        "perfScore": 100,
+        "jsBytes": 89115,
+        "totalBytes": 90928,
+        "biggestScript": {
+          "url": "chunks/fd9d1056-aa94ea5c2eabf904.js",
+          "bytes": 54179
+        }
+      }
+    ],
+    "agg": {
+      "fcp": {
+        "mean": 624.90222,
+        "sd": 21.829676329070967
+      },
+      "lcp": {
+        "mean": 1379.20444,
+        "sd": 156.159888526241
+      },
+      "speedIndex": {
+        "mean": 624.90222,
+        "sd": 21.829676329070967
+      },
+      "tbt": {
+        "mean": 14.4,
+        "sd": 32.19937887599698
+      },
+      "tti": {
+        "mean": 1433.60444,
+        "sd": 226.05325156813825
+      },
+      "bootup": {
+        "mean": 48.47359999999994,
+        "sd": 108.39026471413366
+      },
+      "maxFid": {
+        "mean": 37.2,
+        "sd": 47.40464112299554
+      },
+      "perfScore": {
+        "mean": 100,
+        "sd": 0
+      },
+      "jsBytes": {
+        "mean": 89115,
+        "sd": 0
+      },
+      "totalBytes": {
+        "mean": 90928,
+        "sd": 0
+      }
+    }
+  },
+  {
+    "key": "with-sentry",
+    "runs": [
+      {
+        "fcp": 616.0028,
+        "lcp": 910.0056,
+        "speedIndex": 616.0028,
+        "tbt": 122,
+        "tti": 2173.4556000000002,
+        "bootup": 261.9719999999988,
+        "maxFid": 170,
+        "perfScore": 99,
+        "jsBytes": 162299,
+        "totalBytes": 164717,
+        "biggestScript": {
+          "url": "chunks/614-31459beeb582fdb4.js",
+          "bytes": 104605
+        }
+      },
+      {
+        "fcp": 614.9793,
+        "lcp": 1357.9586,
+        "speedIndex": 614.9793,
+        "tbt": 39,
+        "tti": 2046.9586,
+        "bootup": 148.0240000000003,
+        "maxFid": 89,
+        "perfScore": 100,
+        "jsBytes": 162299,
+        "totalBytes": 164717,
+        "biggestScript": {
+          "url": "chunks/614-31459beeb582fdb4.js",
+          "bytes": 104605
+        }
+      },
+      {
+        "fcp": 613.95065,
+        "lcp": 1355.9013,
+        "speedIndex": 613.95065,
+        "tbt": 38,
+        "tti": 2043.9013,
+        "bootup": 130.0760000000004,
+        "maxFid": 88,
+        "perfScore": 100,
+        "jsBytes": 162299,
+        "totalBytes": 164754,
+        "biggestScript": {
+          "url": "chunks/614-31459beeb582fdb4.js",
+          "bytes": 104605
+        }
+      },
+      {
+        "fcp": 613.60485,
+        "lcp": 1355.2097,
+        "speedIndex": 613.60485,
+        "tbt": 43.00000000000023,
+        "tti": 2048.2097000000003,
+        "bootup": 163.37599999999972,
+        "maxFid": 93.00000000000023,
+        "perfScore": 100,
+        "jsBytes": 162299,
+        "totalBytes": 164736,
+        "biggestScript": {
+          "url": "chunks/614-31459beeb582fdb4.js",
+          "bytes": 104605
+        }
+      },
+      {
+        "fcp": 614.3138,
+        "lcp": 904.6276,
+        "speedIndex": 614.3138,
+        "tbt": 40,
+        "tti": 2044.6276000000003,
+        "bootup": 159.35200000000037,
+        "maxFid": 90,
+        "perfScore": 100,
+        "jsBytes": 162299,
+        "totalBytes": 164717,
+        "biggestScript": {
+          "url": "chunks/614-31459beeb582fdb4.js",
+          "bytes": 104605
+        }
+      }
+    ],
+    "agg": {
+      "fcp": {
+        "mean": 614.57028,
+        "sd": 0.9488399921746293
+      },
+      "lcp": {
+        "mean": 1176.74056,
+        "sd": 245.9587285487608
+      },
+      "speedIndex": {
+        "mean": 614.57028,
+        "sd": 0.9488399921746293
+      },
+      "tbt": {
+        "mean": 56.40000000000005,
+        "sd": 36.71920478441763
+      },
+      "tti": {
+        "mean": 2071.43056,
+        "sd": 57.06017169026926
+      },
+      "bootup": {
+        "mean": 172.5599999999999,
+        "sd": 51.624142646633196
+      },
+      "maxFid": {
+        "mean": 106.00000000000004,
+        "sd": 35.82596823534569
+      },
+      "perfScore": {
+        "mean": 99.8,
+        "sd": 0.4472135954999579
+      },
+      "jsBytes": {
+        "mean": 162299,
+        "sd": 0
+      },
+      "totalBytes": {
+        "mean": 164728.2,
+        "sd": 16.60421633200435
+      }
+    }
+  }
+]
