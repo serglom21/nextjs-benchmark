@@ -1,0 +1,15 @@
+{
+  "name": "sentry-boot-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Benchmark Sentry SDK initialization overhead on a minimal Next.js 14 app using Lighthouse",
+  "scripts": {
+    "install:apps": "npm --prefix baseline install && npm --prefix with-sentry install",
+    "benchmark": "node benchmark.mjs"
+  },
+  "devDependencies": {
+    "chrome-launcher": "^1.1.2",
+    "lighthouse": "^12.2.1"
+  }
+}
