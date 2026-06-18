@@ -1,0 +1,383 @@
+{
+  "totalParsedBytes": 932756,
+  "sentryParsedBytes": 315472,
+  "sentryShareOfBundlePct": 33.8,
+  "bySentryPackage": [
+    {
+      "pkg": "@sentry/core",
+      "parsedBytes": 145693,
+      "gzipBytes": 56200,
+      "modules": 167
+    },
+    {
+      "pkg": "@sentry/browser",
+      "parsedBytes": 78093,
+      "gzipBytes": 26248,
+      "modules": 71
+    },
+    {
+      "pkg": "@sentry/nextjs",
+      "parsedBytes": 62985,
+      "gzipBytes": 22933,
+      "modules": 79
+    },
+    {
+      "pkg": "@sentry-internal/browser-utils",
+      "parsedBytes": 28414,
+      "gzipBytes": 10195,
+      "modules": 44
+    },
+    {
+      "pkg": "@sentry/react",
+      "parsedBytes": 287,
+      "gzipBytes": 95,
+      "modules": 2
+    }
+  ],
+  "integrationModules": [
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/browserMetrics.js",
+      "parsed": 6356
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/tracing/browserTracingIntegration.js",
+      "parsed": 5497
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/tracing/browserTracingIntegration.js",
+      "parsed": 4919
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/trace.js",
+      "parsed": 4693
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/sentrySpan.js",
+      "parsed": 3693
+    },
+    {
+      "path": "@sentry/core/build/esm/fetch.js",
+      "parsed": 2978
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/idleSpan.js",
+      "parsed": 2900
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/tracing/request.js",
+      "parsed": 2823
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/webVitalSpans.js",
+      "parsed": 2312
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/breadcrumbs.js",
+      "parsed": 2200
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/breadcrumbs.js",
+      "parsed": 2164
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/eventFilters.js",
+      "parsed": 1890
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/inp.js",
+      "parsed": 1888
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/eventFilters.js",
+      "parsed": 1859
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/third-party-errors-filter.js",
+      "parsed": 1663
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/tracing/linkedTraces.js",
+      "parsed": 1629
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/browserapierrors.js",
+      "parsed": 1612
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/browserapierrors.js",
+      "parsed": 1586
+    },
+    {
+      "path": "@sentry/core/build/esm/integration.js",
+      "parsed": 1429
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/instrument.js",
+      "parsed": 1325
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/utils.js",
+      "parsed": 1319
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/third-party-errors-filter.js",
+      "parsed": 1317
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/globalhandlers.js",
+      "parsed": 1243
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/globalhandlers.js",
+      "parsed": 1222
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/InteractionManager.js",
+      "parsed": 1183
+    },
+    {
+      "path": "@sentry/core/build/esm/integration.js",
+      "parsed": 1101
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/dedupe.js",
+      "parsed": 1095
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/dedupe.js",
+      "parsed": 1077
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/lcp.js",
+      "parsed": 1036
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/fetchStreamPerformance.js",
+      "parsed": 907
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/cls.js",
+      "parsed": 845
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/fetchStreamPerformance.js",
+      "parsed": 812
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/resourceTiming.js",
+      "parsed": 763
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/getINP.js",
+      "parsed": 757
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/rewriteframes.js",
+      "parsed": 751
+    },
+    {
+      "path": "@sentry/core/build/esm/utils/traceData.js",
+      "parsed": 749
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/sampling.js",
+      "parsed": 746
+    },
+    {
+      "path": "@sentry/core/build/esm/metadata.js",
+      "parsed": 745
+    },
+    {
+      "path": "@sentry/nextjs/build/esm/client/clientNormalizationIntegration.js",
+      "parsed": 743
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/rewriteframes.js",
+      "parsed": 739
+    },
+    {
+      "path": "@sentry/nextjs/build/esm/client/clientNormalizationIntegration.js",
+      "parsed": 731
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/getLCP.js",
+      "parsed": 694
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/networkUtils.js",
+      "parsed": 621
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/getVisibilityWatcher.js",
+      "parsed": 599
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/logSpans.js",
+      "parsed": 523
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/getCLS.js",
+      "parsed": 494
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/sentryNonRecordingSpan.js",
+      "parsed": 458
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/measurement.js",
+      "parsed": 429
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/browsersession.js",
+      "parsed": 424
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/browsersession.js",
+      "parsed": 417
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/tracing/backgroundtab.js",
+      "parsed": 396
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/onFCP.js",
+      "parsed": 385
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/culturecontext.js",
+      "parsed": 374
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/onTTFB.js",
+      "parsed": 373
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/culturecontext.js",
+      "parsed": 368
+    },
+    {
+      "path": "@sentry/core/build/esm/tracing/errors.js",
+      "parsed": 365
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/httpcontext.js",
+      "parsed": 364
+    },
+    {
+      "path": "@sentry/nextjs/build/esm/client/browserTracingIntegration.js",
+      "parsed": 360
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/httpcontext.js",
+      "parsed": 358
+    },
+    {
+      "path": "@sentry/nextjs/build/esm/client/browserTracingIntegration.js",
+      "parsed": 354
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/conversationId.js",
+      "parsed": 346
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/conversationId.js",
+      "parsed": 340
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/LayoutShiftManager.js",
+      "parsed": 328
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/polyfills/interactionCountPolyfill.js",
+      "parsed": 318
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/initMetric.js",
+      "parsed": 314
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/functiontostring.js",
+      "parsed": 305
+    },
+    {
+      "path": "@sentry/core/build/esm/integrations/functiontostring.js",
+      "parsed": 300
+    },
+    {
+      "path": "@sentry/core/build/esm/breadcrumbs.js",
+      "parsed": 285
+    },
+    {
+      "path": "@sentry/core/build/esm/breadcrumbs.js",
+      "parsed": 280
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/linkederrors.js",
+      "parsed": 276
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/tracing/utils.js",
+      "parsed": 271
+    },
+    {
+      "path": "@sentry/browser/build/npm/esm/prod/integrations/linkederrors.js",
+      "parsed": 271
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/whenIdleOrHidden.js",
+      "parsed": 242
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/bindReporter.js",
+      "parsed": 240
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/getNavigationEntry.js",
+      "parsed": 183
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/onHidden.js",
+      "parsed": 167
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/observe.js",
+      "parsed": 141
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/globalListeners.js",
+      "parsed": 135
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/initUnique.js",
+      "parsed": 115
+    },
+    {
+      "path": "@sentry/core/build/esm/utils/breadcrumb-log-level.js",
+      "parsed": 110
+    },
+    {
+      "path": "@sentry/core/build/esm/utils/breadcrumb-log-level.js",
+      "parsed": 108
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/whenActivated.js",
+      "parsed": 94
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/LCPEntryManager.js",
+      "parsed": 88
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/getActivationStart.js",
+      "parsed": 84
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/generateUniqueID.js",
+      "parsed": 61
+    },
+    {
+      "path": "@sentry-internal/browser-utils/build/esm/metrics/web-vitals/lib/runOnce.js",
+      "parsed": 60
+    }
+  ]
+}
