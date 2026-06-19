@@ -23,14 +23,30 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const PORT = 3000;
 const URL = `http://localhost:${PORT}`;
-const RUNS = 5;
 const RESULTS_DIR = path.join(__dirname, "results");
 
-const VARIANTS = [
-  { key: "baseline", dir: path.join(__dirname, "baseline") },
-  { key: "with-sentry", dir: path.join(__dirname, "with-sentry") },
-  { key: "with-sentry-deferred", dir: path.join(__dirname, "with-sentry-deferred") },
-];
+// All known variants. Select which to run via argv; default to the original 3.
+// Override run count with --runs N (default 5).
+const REGISTRY = {
+  baseline: "baseline",
+  "with-sentry": "with-sentry",
+  "with-sentry-deferred": "with-sentry-deferred",
+  "with-sentry-actual": "with-sentry-actual",
+  "with-sentry-treeshake": "with-sentry-treeshake",
+  "with-sentry-v10510": "with-sentry-v10510",
+  "with-sentry-v10580": "with-sentry-v10580",
+};
+
+const argv = process.argv.slice(2);
+let RUNS = 5;
+const selectedKeys = [];
+for (let i = 0; i < argv.length; i++) {
+  if (argv[i] === "--runs") RUNS = Number(argv[++i]);
+  else if (REGISTRY[argv[i]]) selectedKeys.push(argv[i]);
+  else throw new Error(`Unknown variant: ${argv[i]} (known: ${Object.keys(REGISTRY).join(", ")})`);
+}
+const keys = selectedKeys.length ? selectedKeys : ["baseline", "with-sentry", "with-sentry-deferred"];
+const VARIANTS = keys.map((key) => ({ key, dir: path.join(__dirname, REGISTRY[key]) }));
 
 // 4x CPU + Slow 4G, real (DevTools) throttling.
 const LH_SETTINGS = {
@@ -249,11 +265,20 @@ async function main() {
   ].join("\n");
 
   console.log("\n" + md);
-  await writeFile(path.join(RESULTS_DIR, "throttled-summary.md"), md);
-  await writeFile(
-    path.join(RESULTS_DIR, "throttled-summary.json"),
-    JSON.stringify(results, null, 2)
-  );
+  // Per-run JSONs (throttled-<key>-run-N.json) are the source of truth; the
+  // canonical multi-variant table is built by report-throttled.mjs. Only write
+  // the original combined summary when running the default 3-variant set, so
+  // ad-hoc partial runs don't clobber it.
+  const isDefaultSet =
+    keys.length === 3 &&
+    keys.every((k) => ["baseline", "with-sentry", "with-sentry-deferred"].includes(k));
+  if (isDefaultSet) {
+    await writeFile(path.join(RESULTS_DIR, "throttled-summary.md"), md);
+    await writeFile(
+      path.join(RESULTS_DIR, "throttled-summary.json"),
+      JSON.stringify(results, null, 2)
+    );
+  }
   console.log(`\nWritten to ${RESULTS_DIR}`);
 }
 
