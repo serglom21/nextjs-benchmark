@@ -1,0 +1,68 @@
+{
+  "appDir": "vite-with-sentry",
+  "initialChunks": [
+    "index-JgqatJCG.js"
+  ],
+  "chunks": {
+    "index-JgqatJCG.js": {
+      "isInitial": true,
+      "rendered": 612205,
+      "gzip": 191485,
+      "sentryRendered": 259837,
+      "sentryGzip": 84510
+    },
+    "index-z_dx0IcH.js": {
+      "isInitial": false,
+      "rendered": 805065,
+      "gzip": 221687,
+      "sentryRendered": 805065,
+      "sentryGzip": 221687
+    }
+  },
+  "byPkg": {
+    "@sentry/core": {
+      "initialGzip": 66158,
+      "deferredGzip": 57884,
+      "initialRendered": 204571,
+      "deferredRendered": 198480
+    },
+    "@sentry/browser": {
+      "initialGzip": 13774,
+      "deferredGzip": 31887,
+      "initialRendered": 41958,
+      "deferredRendered": 102887
+    },
+    "@sentry-internal/browser-utils": {
+      "initialGzip": 4215,
+      "deferredGzip": 21811,
+      "initialRendered": 12755,
+      "deferredRendered": 64026
+    },
+    "@sentry/react": {
+      "initialGzip": 363,
+      "deferredGzip": 18555,
+      "initialRendered": 553,
+      "deferredRendered": 71028
+    },
+    "@sentry-internal/feedback": {
+      "initialGzip": 0,
+      "deferredGzip": 21865,
+      "initialRendered": 0,
+      "deferredRendered": 73481
+    },
+    "@sentry-internal/replay": {
+      "initialGzip": 0,
+      "deferredGzip": 61491,
+      "initialRendered": 0,
+      "deferredRendered": 263553
+    },
+    "@sentry-internal/replay-canvas": {
+      "initialGzip": 0,
+      "deferredGzip": 8194,
+      "initialRendered": 0,
+      "deferredRendered": 31610
+    }
+  },
+  "tracingInitialGzipKB": 5,
+  "tracingDeferredGzipKB": 64.7
+}

@@ -1,0 +1,341 @@
+[
+  {
+    "key": "vite-baseline",
+    "runs": [
+      {
+        "fcp": 1052.4014,
+        "lcp": 1052.4014,
+        "speedIndex": 1052.4014,
+        "tbt": 0,
+        "tti": 1052.4014,
+        "bootup": 25.88400000000001,
+        "perfScore": 100,
+        "jsBytes": 73217,
+        "totalBytes": 73685,
+        "longTasks": []
+      },
+      {
+        "fcp": 1053.0327,
+        "lcp": 1053.0327,
+        "speedIndex": 1053.0327,
+        "tbt": 0,
+        "tti": 1053.0327,
+        "bootup": 23.80000000000001,
+        "perfScore": 100,
+        "jsBytes": 73217,
+        "totalBytes": 73685,
+        "longTasks": []
+      },
+      {
+        "fcp": 1051.8729,
+        "lcp": 1051.8729,
+        "speedIndex": 1051.8729,
+        "tbt": 0,
+        "tti": 1051.8729,
+        "bootup": 22.912000000000017,
+        "perfScore": 100,
+        "jsBytes": 73217,
+        "totalBytes": 73685,
+        "longTasks": []
+      },
+      {
+        "fcp": 1051.7829,
+        "lcp": 1051.7829,
+        "speedIndex": 1051.7829,
+        "tbt": 0,
+        "tti": 1051.7829,
+        "bootup": 23.21600000000001,
+        "perfScore": 100,
+        "jsBytes": 73217,
+        "totalBytes": 73685,
+        "longTasks": []
+      },
+      {
+        "fcp": 1052.4033,
+        "lcp": 1052.4033,
+        "speedIndex": 1052.4033,
+        "tbt": 0,
+        "tti": 1052.4033,
+        "bootup": 23.904000000000018,
+        "perfScore": 100,
+        "jsBytes": 73217,
+        "totalBytes": 73685,
+        "longTasks": []
+      }
+    ],
+    "agg": {
+      "fcp": {
+        "mean": 1052.29864,
+        "sd": 0.5018963319252198
+      },
+      "lcp": {
+        "mean": 1052.29864,
+        "sd": 0.5018963319252198
+      },
+      "speedIndex": {
+        "mean": 1052.29864,
+        "sd": 0.5018963319252198
+      },
+      "tbt": {
+        "mean": 0,
+        "sd": 0
+      },
+      "tti": {
+        "mean": 1052.29864,
+        "sd": 0.5018963319252198
+      },
+      "bootup": {
+        "mean": 23.94320000000001,
+        "sd": 1.1598427479619797
+      },
+      "perfScore": {
+        "mean": 100,
+        "sd": 0
+      },
+      "jsBytes": {
+        "mean": 73217,
+        "sd": 0
+      },
+      "totalBytes": {
+        "mean": 73685,
+        "sd": 0
+      }
+    }
+  },
+  {
+    "key": "vite-with-sentry",
+    "runs": [
+      {
+        "fcp": 1359.3112999999998,
+        "lcp": 1359.3112999999998,
+        "speedIndex": 1359.3112999999998,
+        "tbt": 0,
+        "tti": 1359.3112999999998,
+        "bootup": 103.86400000000003,
+        "perfScore": 100,
+        "jsBytes": 233969,
+        "totalBytes": 234810,
+        "longTasks": []
+      },
+      {
+        "fcp": 1358.6113,
+        "lcp": 1358.6113,
+        "speedIndex": 1358.6113,
+        "tbt": 0,
+        "tti": 1358.6113,
+        "bootup": 52.28400000000003,
+        "perfScore": 100,
+        "jsBytes": 233969,
+        "totalBytes": 234810,
+        "longTasks": []
+      },
+      {
+        "fcp": 1359.0635,
+        "lcp": 1359.0635,
+        "speedIndex": 1359.0635,
+        "tbt": 0,
+        "tti": 1359.0635000000002,
+        "bootup": 106.86800000000002,
+        "perfScore": 100,
+        "jsBytes": 233969,
+        "totalBytes": 234811,
+        "longTasks": []
+      },
+      {
+        "fcp": 1358.1223,
+        "lcp": 1358.1223,
+        "speedIndex": 1358.1223,
+        "tbt": 0,
+        "tti": 1358.1223,
+        "bootup": 104.97200000000005,
+        "perfScore": 100,
+        "jsBytes": 233969,
+        "totalBytes": 234791,
+        "longTasks": []
+      },
+      {
+        "fcp": 1358.7930999999999,
+        "lcp": 1358.7930999999999,
+        "speedIndex": 1358.7930999999999,
+        "tbt": 0,
+        "tti": 1358.7930999999999,
+        "bootup": 53.679999999999986,
+        "perfScore": 100,
+        "jsBytes": 233969,
+        "totalBytes": 234791,
+        "longTasks": []
+      }
+    ],
+    "agg": {
+      "fcp": {
+        "mean": 1358.7803,
+        "sd": 0.4538314885504906
+      },
+      "lcp": {
+        "mean": 1358.7803,
+        "sd": 0.4538314885504906
+      },
+      "speedIndex": {
+        "mean": 1358.7803,
+        "sd": 0.4538314885504906
+      },
+      "tbt": {
+        "mean": 0,
+        "sd": 0
+      },
+      "tti": {
+        "mean": 1358.7803,
+        "sd": 0.4538314885505261
+      },
+      "bootup": {
+        "mean": 84.33360000000002,
+        "sd": 28.644368186434154
+      },
+      "perfScore": {
+        "mean": 100,
+        "sd": 0
+      },
+      "jsBytes": {
+        "mean": 233969,
+        "sd": 0
+      },
+      "totalBytes": {
+        "mean": 234802.6,
+        "sd": 10.597169433391162
+      }
+    }
+  },
+  {
+    "key": "vite-with-sentry-deferred",
+    "runs": [
+      {
+        "fcp": 1057.5755,
+        "lcp": 1057.5755,
+        "speedIndex": 1057.5755,
+        "tbt": 9,
+        "tti": 2170.36325,
+        "bootup": 49.46399999999996,
+        "perfScore": 100,
+        "jsBytes": 231798,
+        "totalBytes": 232648,
+        "longTasks": [
+          {
+            "url": "Unattributable",
+            "duration": 59,
+            "startTime": 2111
+          }
+        ]
+      },
+      {
+        "fcp": 1057.1851,
+        "lcp": 1057.1851,
+        "speedIndex": 1057.1851,
+        "tbt": 11,
+        "tti": 2171.77765,
+        "bootup": 51.903999999999954,
+        "perfScore": 100,
+        "jsBytes": 231798,
+        "totalBytes": 232629,
+        "longTasks": [
+          {
+            "url": "Unattributable",
+            "duration": 61,
+            "startTime": 2111
+          }
+        ]
+      },
+      {
+        "fcp": 1056.7113,
+        "lcp": 1056.7113,
+        "speedIndex": 1056.7113,
+        "tbt": 8,
+        "tti": 2168.06695,
+        "bootup": 50.49599999999998,
+        "perfScore": 100,
+        "jsBytes": 231798,
+        "totalBytes": 232648,
+        "longTasks": [
+          {
+            "url": "Unattributable",
+            "duration": 58,
+            "startTime": 2110
+          }
+        ]
+      },
+      {
+        "fcp": 1056.6525,
+        "lcp": 1056.6525,
+        "speedIndex": 1056.6525,
+        "tbt": 8,
+        "tti": 2167.97875,
+        "bootup": 50.63599999999995,
+        "perfScore": 100,
+        "jsBytes": 231798,
+        "totalBytes": 232648,
+        "longTasks": [
+          {
+            "url": "Unattributable",
+            "duration": 58,
+            "startTime": 2110
+          }
+        ]
+      },
+      {
+        "fcp": 1056.0668,
+        "lcp": 1056.0668,
+        "speedIndex": 1056.0668,
+        "tbt": 9,
+        "tti": 2318.1002,
+        "bootup": 51.139999999999986,
+        "perfScore": 100,
+        "jsBytes": 231798,
+        "totalBytes": 232648,
+        "longTasks": [
+          {
+            "url": "Unattributable",
+            "duration": 59,
+            "startTime": 2259
+          }
+        ]
+      }
+    ],
+    "agg": {
+      "fcp": {
+        "mean": 1056.8382399999998,
+        "sd": 0.5721881141722065
+      },
+      "lcp": {
+        "mean": 1056.8382399999998,
+        "sd": 0.5721881141722065
+      },
+      "speedIndex": {
+        "mean": 1056.8382399999998,
+        "sd": 0.5721881141722065
+      },
+      "tbt": {
+        "mean": 9,
+        "sd": 1.224744871391589
+      },
+      "tti": {
+        "mean": 2199.2573600000005,
+        "sd": 66.45452917811916
+      },
+      "bootup": {
+        "mean": 50.727999999999966,
+        "sd": 0.8962008703410177
+      },
+      "perfScore": {
+        "mean": 100,
+        "sd": 0
+      },
+      "jsBytes": {
+        "mean": 231798,
+        "sd": 0
+      },
+      "totalBytes": {
+        "mean": 232644.2,
+        "sd": 8.497058314499203
+      }
+    }
+  }
+]
